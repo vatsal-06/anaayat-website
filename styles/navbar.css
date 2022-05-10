@@ -1,0 +1,54 @@
+.navbar {
+  height: 12vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  text-decoration: underline;
+}
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 24%;
+  margin-right: 4vw;
+}
+
+.navbar__dot {
+  font-size: 24px;
+}
+
+.navbar__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+}
+
+.navbar__logo span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+
+.navbar__image {
+  height: 10vh;
+}
