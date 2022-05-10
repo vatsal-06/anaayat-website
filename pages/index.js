@@ -13,7 +13,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="home__main"></main>
+      <main className="home__main">
+        <div>
+          <div className="home__left-side">
+            <h2 className="home__heading">
+              Let's become the light of the obscured
+            </h2>
+            <p className="home__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+            </p>
+            <button className="home__button">
+              Know More
+            </button>
+          </div>
+          <div></div>
+        </div>
+      </main>
 
       <Footer />
     </div>
