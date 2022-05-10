@@ -17,7 +17,7 @@ export default function Home() {
         <div>
           <div className="home__left-side">
             <h2 className="home__heading">
-              Let's become the light of the obscured
+              Lets become the light of the obscured
             </h2>
             <p className="home__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
