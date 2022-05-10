@@ -1,0 +1,46 @@
+.footer__main {
+	height: 90vh;
+	display: flex;
+	background-color: var(--primary-brown);
+	padding: 40px 70px 40px 70px;
+	margin-top: 100px;
+}
+
+.footer__main-details-heading {
+	font-size: 68px;
+	color: #fff;
+}
+
+.footer__main-details-other {
+	margin-top: 120px;
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+}
+
+.involv,
+.connect_head {
+	font-size: 20px;
+	font-weight: 500;
+}
+.connect {
+	margin-left: 70px;
+}
+.donate,
+.work,
+.insta,
+.twit,
+.face {
+	font-size: 12px;
+}
+
+.footer-end {
+	font-size: 15px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	margin-top: 0;
+	background-color: #a58674;
+}
