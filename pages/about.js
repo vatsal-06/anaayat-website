@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
-
 export default function About() {
 	return (
 		<div className="about__main">
@@ -23,9 +22,9 @@ export default function About() {
 						voluptatum aperiam, vero excepturi et optio, ratione accusamus itaqu
 					</p>
 				</div>
-            </div>
-            <div className="about__main-team">
-
+			</div>
+			<div className="about__main-team">
+			
 			</div>
 			<Footer />
 		</div>

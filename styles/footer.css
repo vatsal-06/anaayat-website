@@ -1,9 +1,13 @@
 .footer__main {
-	height: 90vh;
+	height: 75vh;
 	display: flex;
 	background-color: var(--primary-brown);
 	padding: 40px 70px 40px 70px;
 	margin-top: 100px;
+}
+
+.footer__main-details {
+	width: 60%;
 }
 
 .footer__main-details-heading {
@@ -12,7 +16,7 @@
 }
 
 .footer__main-details-other {
-	margin-top: 120px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	color: #fff;
@@ -43,4 +47,60 @@
 	height: 10vh;
 	margin-top: 0;
 	background-color: #a58674;
+}
+
+.footer__main-contact {
+	display: flex;
+	width: 30%;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-left: 100px;
+}
+
+.form {
+	height: auto;
+	width: 100%;
+	background-color: #a58674;
+	flex: 30%;
+	border-radius: 15px;
+	padding: 30px;
+}
+label {
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+input,
+textarea {
+	height: 40px;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.name,
+.email,
+.msg {
+	margin-top: 10px;
+}
+.submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+.submit button {
+	background-color: var(--primary-brown);
+	border: none;
+	color: #fff;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
 }
