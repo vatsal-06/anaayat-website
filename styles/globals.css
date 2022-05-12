@@ -12,6 +12,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #fff4ee;
   color: #53301D;
+  overflow-x: hidden;
 }
 
 :root{
