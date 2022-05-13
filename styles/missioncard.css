@@ -2,10 +2,12 @@
   background-color: var(--tertiary-brown);
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-content: flex-start;
   border-radius: 5px;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 .mission-card-info {
@@ -20,8 +22,8 @@
   color: #876450;
   font-weight: 500;
   margin-top: 2vh;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
   text-align: center;
 }
 
@@ -33,8 +35,8 @@
   cursor: pointer;
   color: #876450;
   font-weight: 500;
-  font-size: 18px;
-  margin-top: 4vh;
+  font-size: 16px;
+  margin-top: 6vh;
 }
 
 .mission-card-title {
@@ -45,7 +47,7 @@
 
 .mission-card-img {
   background-color: black;
-  height: 250px;
+  height: 200px;
   border-radius: 5px 5px 0px 0px;
-  width: 400px;
+  width: 350px;
 }
