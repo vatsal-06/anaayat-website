@@ -5,6 +5,7 @@
 @import url('./footer.css');
 @import url('./team.css');
 @import url('./drives.css');
+@import url('./bifrost.css');
 @import url('./missioncard.css');
 
 html,
@@ -20,7 +21,7 @@ body {
 :root{
   --primary-pink: #FFCFD1;
   --primary-brown: #53301D;
-  --secondary-brown: rgba(83, 48, 29, 0.68);
+  --secondary-brown: rgba(83, 48, 29, 0.69);
   --tertiary-brown: rgba(255, 239, 229, 1);
 }
 

@@ -14,6 +14,16 @@ export default function Navbar() {
           <Link href="/about">About</Link>
           <span className="navbar__dot">·</span>
           <Link href="/contact">Contact</Link>
+          <span className="navbar__dot">·</span>
+          <Link href="/drives">Drives</Link>
+          <span className="navbar__dot">·</span>
+          <Link href="/bifrost">Bifrost</Link>
+          <span className="navbar__dot"></span>
+          <div className="navbar__burger"> 
+            <span className="navbar__burger-line"></span>
+            <span className="navbar__burger-line"></span>
+            <span className="navbar__burger-line"></span>
+          </div>
         </div>
       </div>
     </nav>

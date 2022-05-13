@@ -1,47 +1,47 @@
-
-
 .about__main-photo,
-.drives__main-photo {
-	background-image: linear-gradient(
-			rgba(83, 48, 29, 0.68),
-			rgba(52, 52, 52, 0.74)
-		),
-		url(https://discord.com/channels/@me/780471839193432104/973645866957144065);
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	justify-content: center;
+.drives__main-photo,
+.bifrost__main-photo {
+  background-image: linear-gradient(
+      rgba(83, 48, 29, 0.68),
+      rgba(52, 52, 52, 0.74)
+    ),
+    url(https://discord.com/channels/@me/780471839193432104/973645866957144065);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .about__main-heading,
-.drives__main-heading {
-	font-size: 68px;
-	color: var(--primary-pink);
+.drives__main-heading,
+.bifrost__main-heading {
+  font-size: 69px;
+  color: var(--primary-pink);
 }
 
 .about__main-note {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__main-note-box {
-	background-color: var(--tertiary-brown);
-	height: 48%;
-	width: 80%;
-	margin: 20px;
-	border-radius: 10px;
-	padding: 20px;
-	padding: 20px 50px 20px 50px;
-	text-align: center;
+  background-color: var(--tertiary-brown);
+  height: 48%;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
 }
 
 .about__main-note-p {
-	color: var(--secondary-brown);
-	text-align: left;
-	font-size: 16px;
-	padding-top: 10px;
-	line-height: 29px;
+  color: var(--secondary-brown);
+  text-align: left;
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 29px;
 }

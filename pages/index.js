@@ -48,7 +48,15 @@ export default function Home() {
             <button className="home__about-btn">Know More</button>
           </div>
         </div>
-        <MissionCard />
+        <hr className="home__hr" />
+        <div className="home__mission">
+          <div className="home__mission-title">Our Mission</div>
+          <div className="home__mission-cards">
+            <MissionCard />
+            <MissionCard />
+            <MissionCard />
+          </div>
+        </div>
       </main>
 
       <Footer />

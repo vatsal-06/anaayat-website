@@ -5,13 +5,13 @@ export default function MissionCard() {
     <div className="mission-card">
       <div className="mission-card-img"></div>
       <div className="mission-card-info">
-        <h2 className="mission-card-title">
-          Lets become the light of the obscured
-        </h2>
+        <h2 className="mission-card-title">Heading</h2>
         <p className="mission-card-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus,
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+        <Link href="/">
+          <span className="mission-card-more">Read More</span>
+        </Link>
       </div>
     </div>
   );

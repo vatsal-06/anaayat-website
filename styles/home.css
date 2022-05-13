@@ -124,6 +124,30 @@
   margin-right: 4vw;
 }
 
+.home__mission {
+  margin-top: 8vh;
+  width: 84vw;
+  margin-left: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__mission-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.home__mission-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 84vw;
+  margin-top: 8vh;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
