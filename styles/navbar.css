@@ -1,5 +1,5 @@
 .navbar {
-  height: 12vh;
+  height: 14vh;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
   justify-content: space-between;
   align-items: center;
   width: 24%;
-  margin-right: 4vw;
+  margin-right: 6vw;
 }
 
 .navbar__dot {
@@ -40,15 +40,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 3vw;
+  margin-left: 6vw;
 }
 
 .navbar__logo span {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 1vw;
 }
 
 .navbar__image {
-  height: 10vh;
+  height: 8vh;
 }

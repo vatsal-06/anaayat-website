@@ -35,14 +35,14 @@
 
 .home__hr {
   align-self: center;
-  width: 72%;
+  width: 84%;
   height: 1px;
-  background-color: #c4c4c4;
-  margin-top: 10vh;
+  color: var(--tertiary-brown);
+  margin-top: 8vh;
 }
 
 .home__description {
-  margin-top: 6vh;
+  margin-top: 8vh;
 }
 
 .home__left-side {
@@ -50,9 +50,9 @@
 }
 
 .home__landing {
-  margin-left: 12vw;
-  margin-right: 12vw;
-  margin-top: 8vh;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -60,7 +60,7 @@
 }
 
 .home__button {
-  margin-top: 12vh;
+  margin-top: 20vh;
   padding: 1rem 2rem;
   background-color: #53301d;
   color: white;
@@ -79,8 +79,49 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 22vw;
-  margin-top: 6vh;
+  width: 24vw;
+  margin-top: 8vh;
+}
+
+.home__about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 84vw;
+  margin-top: 8vh;
+  align-self: center;
+  background-color: var(--tertiary-brown);
+}
+
+.home__about-image {
+  width: 24vw;
+  height: 20vw;
+  background-color: black;
+}
+
+.home__about-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.home__about-description {
+  font-size: 18px;
+  color: #876450;
+  font-weight: 500;
+}
+
+.home__about-btn {
+  padding: 1rem 2rem;
+  background-color: #53301d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home__about-info {
+  width: 50%;
+  margin-right: 4vw;
 }
 
 .title a {

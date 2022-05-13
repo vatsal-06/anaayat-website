@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Footer } from '../components/Footer';
+import MissionCard from '../components/MissionCard';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
@@ -36,6 +37,18 @@ export default function Home() {
           <div className="home__image"></div>
         </div>
         <hr className="home__hr" />
+        <div className="home__about">
+          <div className="home__about-image"></div>
+          <div className="home__about-info">
+            <div className="home__about-title">About Us</div>
+            <p className="home__about-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+            </p>
+            <button className="home__about-btn">Know More</button>
+          </div>
+        </div>
+        <MissionCard />
       </main>
 
       <Footer />

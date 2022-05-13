@@ -5,12 +5,13 @@
 @import url('./footer.css');
 @import url('./team.css');
 @import url('./drives.css');
+@import url('./missioncard.css');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins'; 
   background-color: #fff4ee;
   color: #53301D;
   overflow-x: hidden;
