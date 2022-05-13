@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import { Team } from "../components/Team";
 
 export default function About() {
 	return (
@@ -12,19 +13,17 @@ export default function About() {
 				<div className="about__main-note-box">
 					<h1 className="about__main-note-heading">Presidents note</h1>
 					<p className="about__main-note-p">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ad
-						expedita nesciunt eligendi, dignissimos voluptatibus deleniti amet
-						cumque omnis nihil illum eum voluptatum aperiam, vero excepturi et
-						optio, ratione accusamus itaque harum delectus vel necessitatibus
-						consequatur? Odit enim neque praesentium? Lorem ipsum dolor sit amet
-						consectetur adipisicing elit. Dicta ad expedita nesciunt eligendi,
-						dignissimos voluptatibus deleniti amet cumque omnis nihil illum eum
-						voluptatum aperiam, vero excepturi et optio, ratione accusamus itaqu
+						Greetings dear reader, Anaayat was started as a mission and a dream
+						project of passion, our journey till here has been beautiful and
+						full of amazing experiences in helping the poor, I hope to share
+						this journey via this site with each and every one of you and
+						motivate you to join us on our path to eradicate socio economic
+						issues related to poverty
 					</p>
 				</div>
 			</div>
 			<div className="about__main-team">
-			
+				<Team />
 			</div>
 			<Footer />
 		</div>
