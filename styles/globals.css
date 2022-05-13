@@ -11,6 +11,7 @@ body {
   font-family: 'Poppins';
   background-color: #fff4ee;
   color: #53301D;
+  overflow-x: hidden;
 }
 
 :root{

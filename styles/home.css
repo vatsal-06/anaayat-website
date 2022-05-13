@@ -33,22 +33,54 @@
   font-weight: 500;
 }
 
+.home__hr {
+  align-self: center;
+  width: 72%;
+  height: 1px;
+  background-color: #c4c4c4;
+  margin-top: 10vh;
+}
+
 .home__description {
-  margin-top: 8vh;
+  margin-top: 6vh;
 }
 
 .home__left-side {
+  width: 28vw;
+}
+
+.home__landing {
   margin-left: 12vw;
-  margin-top: 12vh;
-  width: 40vw;
+  margin-right: 12vw;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .home__button {
-  margin-top: 20vh;
+  margin-top: 12vh;
   padding: 1rem 2rem;
-  background-color: #53301D;
+  background-color: #53301d;
   color: white;
   border: none;
+  cursor: pointer;
+}
+
+.home__image {
+  width: 28vw;
+  background-color: black;
+  height: 50vh;
+}
+
+.home__socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 22vw;
+  margin-top: 6vh;
 }
 
 .title a {

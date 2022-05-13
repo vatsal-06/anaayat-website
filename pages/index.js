@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Footer } from '../components/Footer';
 import Navbar from '../components/Navbar';
 
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="home__main">
-        <div>
+        <div className="home__landing">
           <div className="home__left-side">
             <h2 className="home__heading">
               Lets become the light of the obscured
@@ -23,12 +24,18 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
             </p>
-            <button className="home__button">
-              Know More
-            </button>
+            <button className="home__button">Know More</button>
+            <div className="home__socials">
+              <Link href="/">Instagram</Link>
+              <span className="navbar__dot">·</span>
+              <Link href="/about">YouTube</Link>
+              <span className="navbar__dot">·</span>
+              <Link href="/contact">Twitter</Link>
+            </div>
           </div>
-          <div></div>
+          <div className="home__image"></div>
         </div>
+        <hr className="home__hr" />
       </main>
 
       <Footer />
