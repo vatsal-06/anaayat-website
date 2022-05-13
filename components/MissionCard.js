@@ -8,9 +8,10 @@ export default function MissionCard() {
         <h2 className="mission-card-title">Heading</h2>
         <p className="mission-card-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse varius enim in eros elementum tristique. Duis cursus,
         </p>
         <Link href="/">
-          <span className="mission-card-more">Read More</span>
+          <span className="mission-card-more">Read more</span>
         </Link>
       </div>
     </div>
