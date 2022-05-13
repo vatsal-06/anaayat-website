@@ -3,6 +3,7 @@
 	flex-direction: row;
 	width: 100%;
 	height: 100vh;
+	margin-top: 50px;
 }
 
 .left,
@@ -11,6 +12,14 @@
 	justify-content: center;
 	align-items: center;
 	margin: 0px 50px 0 50px;
+	cursor: pointer;
+}
+
+.team__main-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .team__main-container {
@@ -37,4 +46,18 @@
 
 .photo__team {
 	border-radius: 50%;
+}
+
+.team__main-container-pos {
+	color: var(--secondary-brown);
+}
+
+.team__main-container-pos h2 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.team__main-container-name {
+	font-size: 12px;
+	font-weight: 600;
 }

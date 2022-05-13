@@ -1,0 +1,20 @@
+.drives__main-funds {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.drives__main-funds-container {
+	background-color: var(--tertiary-brown);
+	height: 35%;
+	width: 80%;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.end-part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

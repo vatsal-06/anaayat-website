@@ -1,6 +1,7 @@
 
 
-.about__main-photo {
+.about__main-photo,
+.drives__main-photo {
 	background-image: linear-gradient(
 			rgba(83, 48, 29, 0.68),
 			rgba(52, 52, 52, 0.74)
@@ -13,7 +14,8 @@
 	justify-content: center;
 }
 
-.about__main-heading {
+.about__main-heading,
+.drives__main-heading {
 	font-size: 68px;
 	color: var(--primary-pink);
 }
@@ -27,7 +29,7 @@
 
 .about__main-note-box {
 	background-color: var(--tertiary-brown);
-	height: 60%;
+	height: 48%;
 	width: 80%;
 	margin: 20px;
 	border-radius: 10px;

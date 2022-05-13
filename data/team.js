@@ -1,10 +1,12 @@
-{
+
+
+const team = {
 	"1": [
 		{
 			"name": "Raisha Saini",
 			"position": "President and Reels Head",
 			"desc": "Raisha Saini is our president and reels head ,a 16 year old student, a visionary, a prominent leader, and a person with sense of responsibility to the society. They also are passionate for helping and aiding people, and view Anaayat as a dream project. They love creating content and making different kinds of art. They believe in giving the platform they have to the people who need it, and that motivated them to start anaayat.",
-			"photo": "blob:https://web.whatsapp.com/0d731cfe-3c6e-44fd-afcd-17307fe9e3da"
+			"photo": ""
 		}
 	],
 	"2": [
@@ -40,3 +42,5 @@
 		}
 	]
 }
+
+export default team
