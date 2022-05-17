@@ -3,18 +3,64 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	height: auto;
+	margin-bottom: 50px;
 }
 
 .drives__main-funds-container {
 	background-color: var(--tertiary-brown);
-	height: 35%;
+	height: 30%;
 	width: 80%;
 	padding: 20px;
+	padding-top: 10px;
 	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.drives__main-funds-heading {
+	margin-top: 50px;
+}
+
+.drives__main-funds-container-desc {
+	margin-top: -10px;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 .end-part {
 	display: flex;
 	flex-direction: row;
+	margin-top: 40px;
 	justify-content: space-between;
+}
+
+.date,
+.donate-funds {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--secondary-brown);
+}
+
+.drives__main-photos-heading {
+	margin-top: 50px;
+}
+
+.drives__main-photos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.images-drives {
+	width: 80%;
+	margin: 10px;
+	display: flex;
+	/* justify-content: space-evenly; */
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.images-drives > span {
+	margin: 10px;
 }

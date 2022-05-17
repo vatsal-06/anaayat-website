@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Image from "next/image";
 import raisha from "../public/raisha.jpeg";
 import team from "../data/team";
+import left from "../public/left.svg";
+import right from "../public/right.svg";
+
 export const Team = () => {
 	const [index, setIndex] = useState(1);
 	return (
@@ -20,7 +23,7 @@ export const Team = () => {
 							setIndex(5);
 						}
 					}}>
-					&larr;
+					<Image src={left} alt="hello" />
 				</div>
 				{team[index].map((value) => {
 					const { name, position, desc, photo } = value;
@@ -58,7 +61,7 @@ export const Team = () => {
 							setIndex(1);
 						}
 					}}>
-					&rarr;
+					<Image src={right} alt="hello" />
 				</div>
 			</div>
 		</>

@@ -12,7 +12,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins'; 
+  font-family: 'Poppins';
   background-color: #fff4ee;
   color: #53301D;
   overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
 :root{
   --primary-pink: #FFCFD1;
   --primary-brown: #53301D;
-  --secondary-brown: rgba(83, 48, 29, 0.69);
+  --secondary-brown: rgba(83, 48, 29, 0.68); /*ffs don't mess with it*/
   --tertiary-brown: rgba(255, 239, 229, 1);
 }
 

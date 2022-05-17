@@ -16,7 +16,7 @@
 .about__main-heading,
 .drives__main-heading,
 .bifrost__main-heading {
-  font-size: 69px;
+  font-size: 68px;
   color: var(--primary-pink);
 }
 
@@ -29,12 +29,12 @@
 
 .about__main-note-box {
   background-color: var(--tertiary-brown);
-  height: 48%;
+  height: auto;
   width: 80%;
   margin: 20px;
   border-radius: 10px;
   padding: 20px;
-  padding: 20px 50px 20px 50px;
+  padding: 10px 50px 25px 50px;
   text-align: center;
 }
 

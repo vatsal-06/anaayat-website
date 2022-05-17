@@ -1,25 +1,43 @@
 .bifrost__main-note {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 20vh;
+	align-items: center;
+}
+
+.bifrost__main-ph {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 60px;
 }
 
 .bifrost__main-note-box {
-  background-color: var(--tertiary-brown);
-  height: 48%;
-  width: 80%;
-  margin: 20px;
-  border-radius: 10px;
-  padding: 20px;
-  padding: 20px 50px 20px 50px;
-  text-align: center;
+	width: 60%;
+	padding: 20px;
 }
 
 .bifrost__main-note-p {
-  color: var(--secondary-brown);
-  text-align: left;
-  font-size: 16px;
-  padding-top: 10px;
-  line-height: 29px;
+	font-size: 16px;
+	margin-top: 50px;
+	padding-right: 80px;
+}
+
+.bifrost__main-note-2 {
+	margin-top: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bifrost__main-note-box-2 {
+	background-color: var(--tertiary-brown);
+	height: auto;
+	width: 80%;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 20px;
+	padding: 10px 50px 25px 50px;
+	text-align: center;
 }
