@@ -58,6 +58,7 @@
 
 	.bifrost__main-note-p {
 		margin-left: 0;
+		padding-right: 23px;
 		margin-right: 0;
 	}
 	.bifrost__main-note-box {
@@ -80,6 +81,7 @@
 
 	.bifrost__main-ph {
 		width: 100%;
+		padding: 10px;
 		margin-left: 0;
 	}
 }

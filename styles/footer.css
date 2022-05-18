@@ -115,6 +115,7 @@ textarea {
 		flex-direction: column;
 		align-items: center;
 		padding: 30px;
+		margin-top: 150px;
 	}
 
 	.footer__main-details {
