@@ -61,6 +61,13 @@
 	flex-wrap: wrap;
 }
 
+.images-drives{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .images-drives > span {
 	margin: 10px;
 }
