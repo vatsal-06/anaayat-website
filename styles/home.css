@@ -102,14 +102,13 @@
 }
 
 .home__about-image-container {
-  max-width: 24vw;
+  width: 24vw;
   height: 70vh;
 }
 
 .home__about-image {
   object-fit: cover;
-  max-width: 24vw;
-  max-height: 70vh;
+  width: 80%;
 }
 
 .home__about-title {
