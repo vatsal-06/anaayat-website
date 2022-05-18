@@ -41,3 +41,45 @@
 	padding: 10px 50px 25px 50px;
 	text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+	.bifrost__main-note {
+		flex-wrap: wrap;
+	}
+
+	.bifrost__main-note-p-2,
+	.bifrost__main-note-p {
+		font-size: 12px;
+	}
+
+	.bifrost__main-note-p-2 {
+		text-align: left;
+	}
+
+	.bifrost__main-note-p {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.bifrost__main-note-box {
+		padding: 20px;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.bifrost__main-note-box-2 {
+		padding: 30px;
+	}
+
+	.bifrost__main-note-box-2 {
+		padding: 30px;
+		width: 100%;
+	}
+	.bifrost__main-note-2 {
+		margin-top: 50px;
+	}
+
+	.bifrost__main-ph {
+		width: 100%;
+		margin-left: 0;
+	}
+}
