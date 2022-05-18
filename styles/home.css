@@ -108,7 +108,7 @@
 
 .home__about-image {
   object-fit: cover;
-  width: 80%;
+  height: auto;
 }
 
 .home__about-title {

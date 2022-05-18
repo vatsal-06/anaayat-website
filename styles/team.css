@@ -39,6 +39,11 @@
 
 .team__main-container-photo {
 	border-radius: 50px;
+	object-fit: cover;
+}
+
+.photo__team{
+	object-fit: cover;
 }
 
 .team__main-container-name {

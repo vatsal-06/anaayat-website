@@ -104,3 +104,33 @@ textarea {
 	width: 100px;
 	border-radius: 5px;
 }
+
+.diff-color {
+	margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.footer__main {
+		height: fit-content;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__main-details {
+		width: 100%;
+		/* margin-right: -80px; */
+	}
+
+	.footer__main-contact {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0px;
+		margin-top: 100px;
+	}
+
+	.footer__main-details-heading {
+		font-size: 50px;
+	}
+}
