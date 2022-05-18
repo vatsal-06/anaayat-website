@@ -51,7 +51,7 @@ export default function Home() {
         <hr className="home__hr" />
         <div className="home__about">
           <div className="home__about-image-container">
-            <Image className="home__about-image" src={pov8} alt="image" height='591%' width='400%'/>
+            <Image className="home__about-image" src={pov8} alt="image" 	/>
           </div>
           <div className="home__about-info">
             <div className="home__about-title">About Us</div>

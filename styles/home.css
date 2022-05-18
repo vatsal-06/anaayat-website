@@ -3,6 +3,7 @@
 }
 
 .home__main {
+  padding-top: 14vh;
   min-height: 100vh;
   /* padding: 4rem 0; */
   /* flex: 1; */
@@ -73,7 +74,7 @@
 .home__image-container {
   width: 36vw;
   height: 100vh;
-  margin-top: 10vh;
+  margin-top: 10vh
 }
 
 .home__image {
