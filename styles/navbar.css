@@ -68,3 +68,10 @@
 .navbar__image {
   height: 8vh;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar__links {
+    width: 50%;
+  }
+}
+

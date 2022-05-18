@@ -51,9 +51,14 @@
 	margin: 0;
 }
 
-.mission-card-img {
+.mission-card-img-container {
 	background-color: black;
 	height: 200px;
 	border-radius: 5px 5px 0px 0px;
 	width: 350px;
+}
+
+.mission-card-img {
+	border-radius: 5px 5px 0px 0px;
+	object-fit: cover;
 }

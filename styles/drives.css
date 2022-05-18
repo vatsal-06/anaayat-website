@@ -71,3 +71,7 @@
 .images-drives > span {
 	margin: 10px;
 }
+
+.image__drive {
+	object-fit: cover;
+}

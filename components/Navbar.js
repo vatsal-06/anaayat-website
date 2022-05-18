@@ -13,8 +13,6 @@ export default function Navbar() {
           <span className="navbar__dot">·</span>
           <Link href="/about">About</Link>
           <span className="navbar__dot">·</span>
-          <Link href="/contact">Contact</Link>
-          <span className="navbar__dot">·</span>
           <Link href="/drives">Drives</Link>
           <span className="navbar__dot">·</span>
           <Link href="/bifrost">Bifrost</Link>
