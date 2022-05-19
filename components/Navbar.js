@@ -1,36 +1,40 @@
+import logo from '../public/logo.png';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__container">
         <div className="navbar__logo">
-          <img src="/logo.png" alt="Logo" className="navbar__image" />
+          <div className="navbar__image-container">
+            <Image src={logo} alt="Logo" className="navbar__image" />
+          </div>
           <span>Anaayat</span>
         </div>
         <ul className="navbar__links" id="nav-links">
           <li>
-            <a className="navbar__link" href="/">
+            <Link className="navbar__link" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <span className="navbar__dot">·</span>
           <li>
-            <a className="navbar__link" href="/about">
+            <Link className="navbar__link" href="/about">
               About
-            </a>
+            </Link>
           </li>
           <span className="navbar__dot">·</span>
           <li>
-            <a className="navbar__link" href="/drives">
+            <Link className="navbar__link" href="/drives">
               Drives
-            </a>
+            </Link>
           </li>
           <span className="navbar__dot">·</span>
           <li>
-            <a className="navbar__link" href="/bifrost">
+            <Link className="navbar__link" href="/bifrost">
               Bifrost
-            </a>
+            </Link>
           </li>
           <span className="navbar__dot"></span>
         </ul>

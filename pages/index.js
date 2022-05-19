@@ -22,9 +22,9 @@ export default function Home() {
       <main className="home__main">
         <div className="home__landing">
           <div className="home__left-side">
-            <h2 className="home__heading">
+            <div className="home__heading">
               Lets become the light of the obscured
-            </h2>
+            </div>
             <p className="home__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
@@ -32,9 +32,9 @@ export default function Home() {
             <button className="home__button">Know More</button>
             <div className="home__socials">
               <Link href="/">Instagram</Link>
-              <span className="navbar__dot">·</span>
+              <span className="socials__dot">·</span>
               <Link href="/about">YouTube</Link>
-              <span className="navbar__dot">·</span>
+              <span className="socials__dot">·</span>
               <Link href="/contact">Twitter</Link>
             </div>
           </div>

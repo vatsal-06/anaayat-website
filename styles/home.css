@@ -49,13 +49,15 @@
 
 .home__left-side {
   width: 35vw;
-  margin-top: -16vh;
+  /* margin-top: 16vh; */
 }
 
 .home__landing {
   margin-left: 8vw;
   margin-right: 8vw;
   /* margin-top: 5vh; */
+  height: 84vh;
+  padding-top: 16vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -74,7 +76,7 @@
 .home__image-container {
   width: 36vw;
   height: 100vh;
-  margin-top: 10vh
+  margin-top: 20vh;
 }
 
 .home__image {
@@ -96,7 +98,7 @@
   justify-content: space-around;
   align-items: center;
   width: 84vw;
-  height: 70vh;
+  /* height: 70vh; */
   margin-top: 20vh;
   align-self: center;
   background-color: var(--tertiary-brown);
@@ -136,6 +138,8 @@
 .home__about-info {
   width: 50%;
   margin-right: 4vw;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
 }
 
 .home__mission {
@@ -159,7 +163,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 84vw;
-  margin: 10px;
+  /* margin: 10px; */
   margin-top: 8vh;
 }
 
@@ -243,16 +247,95 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media screen and (max-width: 1280px) {
+  .home__socials {
+    width: 36vw;
+  }
+
+  .home__image-container {
+    margin-top: 24vh;
   }
 }
 
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1024px) {
+  .home__image-container {
+    display: none;
+  }
+
+  .home__main {
+    padding-top: 10vh;
+  }
+
+  .home__about {
+    margin-top: 10vh;
+  }
+
+  .home__mission {
+    margin-top: 10vh;
+  }
+
+  .home__left-side {
+    width: 80vw;
+  }
+
+  .home__about-image-container {
+    display: none;
+  }
+
+  .home__about-info {
+    width: 80%;
+    text-align: right;
+  }
+
+  .home__about-description {
+    text-align: start;
+  }
+
+  .home__about-btn {
+    margin-top: 24px;
+  }
+
+  .home__about-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__heading {
+    font-size: 32px;
+    /* text-align: center; */
+  }
+
+  .home__description {
+    /* text-align: center; */
+  }
+
+  .home__landing {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__main {
+    padding-top: 8vh;
+  }
+
   .home__socials {
-		width: 30vw;
-	}
+    width: 60%;
+  }
+
+  .home__button {
+    margin-top: 14vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home__socials {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .home__about-description {
+    font-size: 14px;
+  }
 }

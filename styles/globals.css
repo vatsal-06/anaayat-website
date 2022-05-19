@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+@import url('./missioncard.css');
 @import url('./home.css');
 @import url('./navbar.css');
 @import url('./about.css');
@@ -6,7 +7,6 @@
 @import url('./team.css');
 @import url('./drives.css');
 @import url('./bifrost.css');
-@import url('./missioncard.css');
 
 html,
 body {
@@ -14,13 +14,13 @@ body {
   margin: 0;
   font-family: 'Poppins';
   background-color: #fff4ee;
-  color: #53301D;
+  color: #53301d;
   overflow-x: hidden;
 }
 
-:root{
-  --primary-pink: #FFCFD1;
-  --primary-brown: #53301D;
+:root {
+  --primary-pink: #ffcfd1;
+  --primary-brown: #53301d;
   --secondary-brown: rgba(83, 48, 29, 0.68); /*ffs don't mess with it*/
   --tertiary-brown: rgba(255, 239, 229, 1);
 }

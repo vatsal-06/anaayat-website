@@ -53,7 +53,8 @@
   background-color: var(--primary-brown);
 }
 
-.navbar__dot {
+.navbar__dot,
+.socials__dot {
   font-size: 24px;
 }
 
@@ -71,8 +72,13 @@
   margin-left: 1vw;
 }
 
-.navbar__image {
+.navbar__image-container {
+  width: 8vh;
   height: 8vh;
+}
+
+.navbar__image {
+  object-fit: cover;
 }
 
 .navbar__hamburger div {
@@ -99,7 +105,31 @@
   transform: rotate(45deg) translate(-4px, -6px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .navbar__links {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mission-card-img-container {
+    display: none;
+  }
+
+  .home__mission-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 2vh;
+  }
+
+  .mission-card {
+    height: 200px;
+    width: 84vw;
+  }
+
   .navbar {
     border-bottom: 1px solid var(--primary-brown);
   }
@@ -107,21 +137,23 @@
   .navbar__links {
     position: fixed;
     right: 0px;
-    height: 84vh;
-    top: 12.1vh;
+    height: 86vh;
+    top: 14vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 56%;
+    width: 64%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     border-left: 1px solid var(--primary-brown);
     background: #fff4ee;
     z-index: 1;
+    padding-right: 8%;
   }
 
   .navactive {
-    transform: translateX(-10%);
+    transform: translateX(0%);
   }
 
   .navbar__dot {
@@ -134,5 +166,6 @@
 
   .navbar__hamburger {
     display: block;
+    margin-right: 4vw;
   }
 }
