@@ -23,7 +23,7 @@ export default function Home() {
         <div className="home__landing">
           <div className="home__left-side">
             <div className="home__heading">
-              Lets become the light of the obscured
+              Advocating poverty related issues and taking a dig at various problems related
             </div>
             <p className="home__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
