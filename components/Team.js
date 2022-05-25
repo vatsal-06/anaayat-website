@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import raisha from "../public/raisha.jpeg";
-import team from "../data/team";
+import team from "../public/team";
 import left from "../public/left.svg";
 import right from "../public/right.svg";
 

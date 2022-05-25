@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Team } from "../components/Team";
+import Slider from "../components/Team2";
 
 export default function About() {
 	return (
@@ -23,7 +24,9 @@ export default function About() {
 				</div>
 			</div>
 			<div className="about__main-team">
-				<Team />
+				<div className="slider__main">
+					<Slider />
+				</div>
 			</div>
 			<Footer />
 		</div>
