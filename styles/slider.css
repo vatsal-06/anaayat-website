@@ -613,10 +613,10 @@
 		padding: 0px;
 		margin: 0;
 		/* background-color: red; */
-		padding: -50px;
+		/* padding: -50px; */
 	}
 	.slider__name {
-		font-size: 28px;
+		font-size: 26px;
 	}
 
 	.slider__work {
