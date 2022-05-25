@@ -611,7 +611,9 @@
 	.slider {
 		width: 100vw;
 		padding: 0px;
+		margin: 0;
 		/* background-color: red; */
+		padding: -50px;
 	}
 	.slider__name {
 		font-size: 28px;
@@ -623,8 +625,9 @@
 	}
 
 	.slider__p {
-		font-size: 14px;
-		line-height: 24px;
+		font-size: 16px;
+		line-height: 25px;
+		width: 100vw;
 	}
 	.photo__team {
 		width: 200px;
